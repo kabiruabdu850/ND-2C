@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:yellowgreen;
+    color: white;
+     align-content: center;
+    justify-content: center;
+    
+}
+
+.container{
+    width: 100;
+    height: 100vh;
+    background-color: yellowgreen;
+    color: red;
+    display: flex ;
+    align-content: center;
+    justify-content: center;
+}
+h1, h3{
+    text-align: center;
+    color: black;
+}
+
+.calculator{
+    background-color: rgb(233, 181, 181);
+    border-radius: 10px;
+    border: 1px solid  gray;
+    padding: 30;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+ 
+.calculator form input{
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(31, 178, 204);
+    cursor: pointer;
+
+}
+.calculator form .display{
+    display: flex;
+    margin: 5px 0px 15px 0px;
+    justify-content: center;
+}
+.calculator form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    background-color: gray;
+
+}
+.calculator input.equal{
+    width: 130px;
+    font-size: 20;
+}
+.calculator form input[type="button"]:hover{
+    opacity: 0.5;
+}
+.calculator form input[type="button"]:active{
+   background-color:red;
+} 
+
+h2{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+h4 {
+    color: black;
+    justify-content: center;
+    justify-items: center;
+}
+table border  {
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    
+}
